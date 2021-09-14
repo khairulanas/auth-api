@@ -22,3 +22,5 @@ sudo apt-get install -y nodejs
 node -v
 
 sudo npm install pm2 -g
+
+pm2 start npm --name "auth-api" -- run "start"
